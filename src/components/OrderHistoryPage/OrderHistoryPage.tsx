@@ -17,7 +17,7 @@ const OrderHistoryPage: React.FC = () => {
 
   return (
     <div className="order-history">
-      <h2 className="order-history__title">Order History</h2>
+      <h2 className="order-history__title">Customer {id}'s Order History</h2>
       <div className="order-history__card">
         <OrderTable orders={orders} />
         <Pagination
