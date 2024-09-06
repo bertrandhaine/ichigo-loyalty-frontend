@@ -5,7 +5,7 @@ import "./styles/HomePage.css";
 const HomePage: React.FC = () => {
   return (
     <div className="home-container">
-      <h1 className="home-title">Welcome to Our Application</h1>
+      <h1 className="home-title">Welcome to the Ichigo Loyalty Frontend</h1>
       <p className="home-subtitle">Here are the available routes:</p>
       <ul className="home-list">
         <li className="home-list-item">
