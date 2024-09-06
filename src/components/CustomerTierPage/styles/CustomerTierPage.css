@@ -1,0 +1,82 @@
+.customer-tier {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.customer-tier__title {
+  text-align: center;
+  color: #333;
+}
+
+.customer-tier__card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.customer-tier__tier-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.customer-tier__info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.customer-tier__info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-tier__info-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #7f8c8d;
+}
+
+.customer-tier__info-value {
+  color: #2c3e50;
+}
+
+.customer-tier__progress-container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.customer-tier__progress-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.customer-tier__progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.customer-tier__progress-fill {
+  background-color: #27ae60;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: width 0.5s ease-in-out;
+}
+
+.customer-tier__progress-text {
+  color: white;
+  padding: 0 10px;
+}
